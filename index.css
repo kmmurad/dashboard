@@ -241,7 +241,24 @@ aside .sidebar a.active::before{
 aside .sidebar a:hover span{
     margin-left: 1rem;
 }
+.Login{
+    border-bottom: 2px solid red;
+    width: 115px;
+}
 
+.Login:hover{
+    color: blueviolet;
+    width: 115px;
+}
+.logout{
+    border-bottom: 2px solid cyan;
+    width: 4%;
+}
+
+.Logoiu:hover{
+    color: blueviolet;
+    width: 115px;
+}
 
 
                        /*   ==========mainsection  ======== */
@@ -472,7 +489,7 @@ aside .sidebar a span{
 aside .sidebar a:last-child{
     position: absolute;
   bottom: -2rem;
-  width: 100%;
+  width: 60%;
 
     
 }
@@ -845,7 +862,7 @@ color: white;
 
 
 
-  @media (max-width: 768px){
+@media (max-width: 768px){
    
   
 

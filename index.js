@@ -31,3 +31,9 @@ themetoggler.addEventListener("click", () => {
         darkIcon.style.display = 'none';
     }
 });
+
+
+
+
+
+

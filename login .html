@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+
+<a href="#" class="back-arrow">
+    <span class="material-symbols-outlined" id="back-arrow">
+        keyboard_return
+    </span>
+</a>
+
+<div class="wrapper">
+    <div class="form-wrapper singin">
+        <form action="" id="forms">
+            <h2>Login</h2>
+            <div class="input-group">
+                <input type="text" required id="Username">
+                <label for="">Username: </label> <br>
+            </div>
+            <div class="input-group">
+                <input type="password" required id="password">
+                <label for="">Password: </label> <br>
+            </div>
+            <div class="errors" style="color: red; font-size: 18px; font-weight: bold;"></div> <br>
+            <div class="remeber">
+                <label for="" id="remember"><input type="checkbox">&nbsp; Remember Me</label> <br>
+            </div>
+            <button type="submit">Login</button>
+            <div class="singup-link">
+                <p>Don't have an account? <a href="#" class="singup-btn-link">Sign UP</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="form-wrapper sign-up">
+
+        
+        <form action="" id="sign-up-form">
+            <h2>Sign-UP</h2>
+            <div class="input-group">
+                <input type="text" required id="sign-up-username">
+                <label for="">Username: </label> <br>
+                <div class="errors" style="color: red; font-size: 18px; font-weight: bold;"></div>
+            </div>
+            <div class="input-group">
+                <input type="email" required id="sign-up-email">
+                <label for="">Email: </label>
+                <div class="errors" style="color: red; font-size: 18px; font-weight: bold;"></div>
+            </div>
+            <div class="input-group">
+                <input type="password" required id="sign-up-password">
+                <label for="">Password: </label>
+                <div class="errors" style="color: red; font-size: 18px; font-weight: bold;"></div> <br>
+            </div>  
+            <div class="input-group">
+                <input type="password" required id="sign-up-confirm-password">
+                <label for="">Confirm your password: </label> <br>
+                <div class="errors" style="color: red; font-size: 18px; font-weight: bold;"></div>
+            </div> <br>
+            <div class="remeber">
+                <label for="" id="remember"><input type="checkbox">&nbsp; I agree to the terms & conditions</label> <br>
+            </div>
+            <button type="submit">Sign-UP</button>
+            <div class="singup-link">
+                <p>Already have an account? <a href="#" class="singin-btn-link">Sign In</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
